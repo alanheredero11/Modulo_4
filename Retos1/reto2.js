@@ -88,7 +88,7 @@ connection.connect(function (error) {
 
 // --------------- SELECT NOMBRE Y APELLIDO -------------
 
-// let sql = "SELECT firts_name, last_name FROM students";
+// let sql = "SELECT first_name, last_name FROM students";
 // connection.query(sql, function (error, result) {
 //     if (error) {
 //         console.log(error);
@@ -114,7 +114,7 @@ connection.connect(function (error) {
 
 // --------------- DELETE ANTERIOR A UN AÑO -------------
 
-// let sql = "DELETE FROM stats WHERE dates > \"2012 - 11 - 18\";";
+// let sql = "DELETE FROM stats WHERE dates > \"2012-11-18\";";
 // connection.query(sql, function (error, result) {
 //     if (error) {
 //         console.log(error);
@@ -127,7 +127,7 @@ connection.connect(function (error) {
 
 // --------------- UPDATE STATS < 5 a 5 -------------
 
-// let sql = "UPDATE stats SET mark = 5 WHER mark < 5";
+// let sql = "UPDATE stats SET mark = 5 WHERE mark < 5";
 // connection.query(sql, function (error, result) {
 //     if (error) {
 //         console.log(error);
