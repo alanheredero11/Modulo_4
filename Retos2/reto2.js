@@ -16,7 +16,7 @@ connection.connect(function (error) {
     }
 })
 
-//-------------- Nota media asignatura 1 ----------------
+//-------------- SELECT STUDENTS  ----------------
 
 // let sql = "SELECT student_id, mark FROM stats WHERE student_id BETWEEN 1 AND 20 || mark > 8 && dates BETWEEN \"2002-01-01\" AND \"2004-12-31\"";
 // connection.query(sql, function(error, result)
@@ -32,7 +32,7 @@ connection.connect(function (error) {
 //     })
 
 
-//-------------- Nota media asignatura 1 ----------------
+//-------------- AVG STATS BETWEEN ----------------
 
 // let sql = "SELECT AVG(mark) FROM stats WHERE dates BETWEEN \"2004-01-01\" AND \"2006-12-31\";";
 // connection.query(sql, function (error, result) {
@@ -45,7 +45,7 @@ connection.connect(function (error) {
 //     }
 // })
 
-//-------------- Nota media asignatura 1 ----------------
+//-------------- MEDIA ARITMETICA ----------------
 
 // let sql = "SELECT student_id, SUM(mark)/COUNT(mark) AS MEDIA_ARITMETICA FROM stats GROUP BY student_id;";
 // connection.query(sql, function (error, result) {
